@@ -1,0 +1,4 @@
+bidict==0.13.1
+bottle==0.12.13
+numpy==1.12.1
+sympy==1.0
