@@ -3,14 +3,14 @@ from utils.constants import JF_sides_and_manipulations
 
 
 manipulations = {
-    'nothing': '',
-    '180': 'rotate(180, 22.5, 22.5)',
+    'fix': '',
+    'cross': 'rotate(180, 22.5, 22.5)',
     'vert': 'scale(1, -1) translate(0, -45)',
     'horz': 'scale(-1, 1) translate(-45, 0)',
     'right': 'rotate(90, 22.5, 22.5)',
     'left': 'rotate(-90, 22.5, 22.5)',
-    'bltr': 'scale(1, -1) translate(0, -45) rotate(-90, 22.5, 22.5)',
-    'tlbr': 'scale(1, -1) translate(0, -45) rotate(90, 22.5, 22.5)'
+    'desc': 'scale(1, -1) translate(0, -45) rotate(90, 22.5, 22.5)',
+    'asc': 'scale(1, -1) translate(0, -45) rotate(-90, 22.5, 22.5)'
 }
 
 (JF_side, manipulation_name) = JF_sides_and_manipulations[(row, col)]

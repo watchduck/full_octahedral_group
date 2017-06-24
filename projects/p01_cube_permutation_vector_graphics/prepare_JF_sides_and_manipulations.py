@@ -14,14 +14,14 @@ JF_cube_sides = {
 }
 
 manipulations = {
-    (0, 0): 'nothing',
-    (5, 0): '180',
+    (0, 0): 'fix',
+    (5, 0): 'cross',
     (4, 0): 'vert',
     (1, 0): 'horz',
     (4, 5): 'right',
     (1, 5): 'left',
-    (0, 5): 'tlbr',
-    (5, 5): 'bltr'
+    (0, 5): 'desc',
+    (5, 5): 'asc'
 }
 
 JF_sides_and_manipulations = {}

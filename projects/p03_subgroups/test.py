@@ -1,7 +1,7 @@
 from sympy.combinatorics import Permutation
 from sympy.combinatorics.perm_groups import PermutationGroup
 
-from dictstore import pairs_to_num_bidict, pairs_to_perm_bidict, subgroup_name_to_tuple_bidict
+from store_dicts import pairs_to_num_bidict, pairs_to_perm_bidict, subgroup_name_to_tuple_bidict
 
 
 pa = Permutation([0, 2, 4, 6, 1, 3, 5, 7])
