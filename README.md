@@ -42,7 +42,7 @@ Templating is done with [Bottle](https://en.wikipedia.org/wiki/Bottle_(web_frame
 - Clone the repo: `clone https://github.com/watchduck/full_octahedral_group.git`
 - Install a virtual environment in it: `virtualenv env`
 - Turn it on: `source env/bin/activate`
-- Install the [dependencies](https://github.com/watchduck/full_octahedral_group/blob/master/requirements.txt): `pip install bottle==0.12.13` etc.
+- Install the [dependencies](https://github.com/watchduck/full_octahedral_group/blob/master/requirements.txt): `pip install -r requirements.txt `
 - Run `python app.py` in each of the project folders
 - Files will be created in subfolders called FILES.
 
@@ -58,9 +58,9 @@ The Povray scene description file generated from the template is `delete_me_afte
 
 ## JF compound
 
-A projection of the three-dimensional JF compound representing a cube permutation is also shown in each of the SVG files.
-The six sides (shown [here](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/JF_cube_net.svg)) are in included and permuted in [JF_perm.tpl](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/views/JF_perm.tpl).
-The permutations are generated [here](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/prepare_JF_sides_and_manipulations.py).
+<img align="right" width="300" src='http://paste.watchduck.net/1704/JF_cube_net_labels.svg'/>
+A side of the three-dimensional JF compound representing a cube permutation is also shown in each of the SVG files.
+The six sides are included and permuted in [JF_perm.tpl](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/views/JF_perm.tpl). The permutations used for that are generated [here](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/prepare_JF_sides_and_manipulations.py).
 
 ## Representations
 
