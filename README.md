@@ -58,9 +58,23 @@ The Povray scene description file generated from the template is `delete_me_afte
 
 ## JF compound
 
-<img align="right" width="300" src='http://paste.watchduck.net/1704/JF_cube_net_labels.svg'/>
 A side of the three-dimensional JF compound representing a cube permutation is also shown in each of the SVG files.
 The six sides are included (`if JF_side ==`...) and permuted (`{{manipulation}}`) in [JF_perm.tpl](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/views/JF_perm.tpl). The permutations used for that were generated [here](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/prepare_JF_sides_and_manipulations.py) and copied to [constants.py](https://github.com/watchduck/full_octahedral_group/blob/master/projects/p01_cube_permutation_vector_graphics/utils/constants.py) (`JF_sides_and_manipulations`).
+
+<table>
+  <tr>
+    <td>
+        <img width="300" src='http://paste.watchduck.net/1704/JF_cube_net_labels.svg'/>
+    </td>
+    <td>
+        <img width="450" src='http://paste.watchduck.net/1704/square_and_cube_perms.png'/>
+    </td>
+  </tr>
+  <tr>
+    <td>`JF_cube_sides`</td>
+    <td>`manipulations`</td>
+  </tr>
+</table>
 
 ## Representations
 
