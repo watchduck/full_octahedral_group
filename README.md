@@ -71,8 +71,8 @@ The six sides are included (`if JF_side ==`...) and permuted (`{{manipulation}}`
     </td>
   </tr>
   <tr>
-    <td>`JF_cube_sides`</td>
-    <td>`manipulations`</td>
+    <td><code>JF_cube_sides</code></td>
+    <td><code>manipulations</code></td>
   </tr>
 </table>
 
