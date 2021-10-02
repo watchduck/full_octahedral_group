@@ -8,6 +8,7 @@ from store_dicts import subgroup_name_to_tuple_bidict, pairs_to_num_bidict
 
 system('mkdir FILES')
 
+
 def create_file(subgroup_name, svg_path):
     context = {'path': svg_path}
     t = template('svg_matrix_code', context)
@@ -15,6 +16,7 @@ def create_file(subgroup_name, svg_path):
     f = open(filename, 'w')
     f.write(t)
     f.close()
+
 
 for sg_name, sg_tuple in subgroup_name_to_tuple_bidict.items():
     mat = np.zeros([8, 6], dtype=bool)
