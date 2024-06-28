@@ -3,5 +3,4 @@
 </a>
 
 SVG files in category
-[Full octahedral group; single elements; signed perm mat, perm mat and cube
-](https://commons.wikimedia.org/wiki/Category:Full_octahedral_group;_single_elements;_signed_perm_mat,_perm_mat_and_cube)
+[Full octahedral group; single elements; SVG overview with permutation matrix](https://commons.wikimedia.org/wiki/Category:Full_octahedral_group;_single_elements;_SVG_overview_with_permutation_matrix)
